@@ -1,0 +1,8 @@
+conda create -n my_practice_env
+conda activate my_practice_env
+
+# install pytorch (automatically install the cuda toolkit version that matches)
+# The following command is found on https://pytorch.org/get-started/locally/#anaconda
+
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+
